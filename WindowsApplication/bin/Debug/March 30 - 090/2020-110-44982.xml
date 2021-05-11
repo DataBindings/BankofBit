@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Bank Transfer file -->
+
+<account_update date="2020-04-19" institution="44982" checksum="22222">
+	<transaction>
+		<institution>44982</institution>
+		<account_no>11111</account_no>
+		<type>9</type>
+		<amount>90</amount>
+		<notes>***ERROR BAD TX TYPE***</notes>
+	</transaction>
+	<transaction>
+		<institution>44982</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<amount>90</amount>
+		<notes>***GOOD***</notes>
+	</transaction>
+</account_update>

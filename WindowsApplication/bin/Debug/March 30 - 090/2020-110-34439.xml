@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!-- Bank Transfer file -->
+
+<account_update date="2020-04-19" institution="34439" checksum="134443">
+	<transaction>
+		<institution>34439</institution>
+		<account_no>11111</account_no>
+		<type>9</type>
+		<amount>90</amount>
+		<notes>***ERROR***wrong tx type</notes>
+	</transaction>
+	<transaction>
+		<institution>34439</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<amount>zero</amount>
+		<notes>***ERROR***bad amt</notes>
+	</transaction>
+	<transaction>
+		<institution>34439</institution>
+		<account_no>1111</account_no>
+		<type>2</type>
+		<amount>10</amount>
+		<notes>***ERROR***bad account number</notes>
+	</transaction>
+	<transaction>
+		<institution>34439</institution>
+		<account_no>11111</account_no>
+		<type>withdrawal</type>
+		<amount>0</amount>
+		<notes>***ERROR***non-numeric trans type</notes>
+	</transaction>
+	<transaction>
+		<institution>34439</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<amount>100</amount>
+		<notes>***GOOD***</notes>
+	</transaction>
+	<transaction>
+		<institution>34439</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<amount>ten</amount>
+		<notes>***ERROR***non-numeric withdrawal amount</notes>
+	</transaction>
+	<transaction>
+		<institution>34439</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<notes>***ERROR***missing child node</notes>
+	</transaction>
+	<transaction>
+		<institution>34439</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<amount>100</amount>
+		<notes>***GOOD***</notes>
+	</transaction>
+	<transaction>
+		<institution>34439</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<amount>100</amount>
+		<notes>***GOOD***</notes>
+	</transaction>
+	<transaction>
+		<institution>34439</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<amount>100</amount>
+		<notes>***GOOD***</notes>
+	</transaction>
+	<transaction>
+		<institution>34439</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<amount>100</amount>
+		<notes>***GOOD***</notes>
+	</transaction>
+	<transaction>
+		<institution>34439</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<amount>100</amount>
+		<notes>***GOOD***</notes>
+	</transaction>
+	<transaction>
+		<institution>34439</institution>
+		<account_no>11111</account_no>
+		<type>2</type>
+		<amount>100</amount>
+		<notes>***GOOD***</notes>
+	</transaction>
+</account_update>
